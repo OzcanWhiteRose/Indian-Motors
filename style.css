@@ -1,0 +1,98 @@
+:root{
+--red:#BF4163 ; 
+--dark-red:#A60321 ; 
+--text-color: #6f7982;
+--text-dark: #212930;
+--white: #FFFFFF;
+--extra-light:#f5f5f5;                 
+--light: #d5d5d5;
+--dark: #0D0D0D;
+--font-family-Roboto : "Roboto Mono", monospace;
+--font-family-Sedan: "Sedan SC", serif;
+
+}
+/* REST CSS PROPERTIES */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+/* NAVIGATION BAR */
+#home{
+    height: 100px;
+    background-color: var(--white) ;
+    border:1px solid var(--red);
+}
+#home img {
+    padding: 5px 0;
+    height: 100px; 
+    vertical-align: middle;
+
+}
+#home nav {
+    display: inline;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+#home nav a{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--red);
+    font-family: var(--font-family-Sedan);
+    margin: 0 10px;
+}
+#home nav a:hover{
+    color: var(--dark-red);
+}
+
+/* BANNER */
+.banner{
+    width: 100%;
+    height: calc(100vh - 60px);
+  }
+  .banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  
+  }
+
+/* #home""#about""#history""indianfamily""#contact" */
+.content{
+   
+    border: 3px solid var(--light);
+    background-color: var(--extra-light);
+    margin-bottom: 2rem 1rem;
+}
+.content h1{
+    text-align: center;
+    color: var(--dark-red);
+    font-size: 1.5rem;
+    font-family: var(--font-family-Roboto);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.content p{
+    color: var(--text-color);
+    font-family: var(--font-family-Roboto);
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: justify;
+    font-weight: 700;
+    
+
+}
+footer{
+    height: 200px;
+    background-color: var(--dark);
+    text-align: center;
+    color: var(--white);
+}
