@@ -71,6 +71,7 @@ html{
     border: 3px solid var(--light);
     background-color: var(--extra-light);
     margin-bottom: 2rem 1rem;
+    
 }
 .content h1{
     text-align: center;
@@ -78,7 +79,9 @@ html{
     font-size: 1.5rem;
     font-family: var(--font-family-Roboto);
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom:15px;
+    background-color: #F29494;
+    
 }
 .content p{
     color: var(--text-color);
@@ -87,9 +90,20 @@ html{
     line-height: 2rem;
     text-align: justify;
     font-weight: 700;
-    
 
 }
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 5px 5px 10px gray;
+    border: 1px solid var(--dark-red);
+
+}
+
 footer{
     height: 200px;
     background-color: var(--dark);
